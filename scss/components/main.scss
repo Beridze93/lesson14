@@ -1,0 +1,24 @@
+.wraper{
+    background-color: $color01;
+    padding:$size02;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     &.container{
+         max-width: 1170px;
+         width: 100%;
+         margin: 0 auto;
+     }
+    p{
+        font-size: $size01;
+        font-family: $font01;
+    }
+}
+.grey-bg{
+    background-color: grey ;
+    &.container{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
